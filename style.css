@@ -77,4 +77,16 @@ h2 {
   .container {
     width: auto;
   }
+  #intro {
+    width: auto;
+  }
+  #infographic {
+    width: auto;
+  }
+  #educations {
+    width: auto;
+  }
+  #contactme {
+    width: auto;
+  }
 }
