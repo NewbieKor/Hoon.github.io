@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap");
+
 h1 {
   font-family: "DynaPuff", cursive;
 }
@@ -30,6 +32,10 @@ h2 {
   width: 80%;
 }
 
+#basicinfo {
+  width: 130%;
+}
+
 #infographic {
   padding: 40px;
   box-shadow: 0px 0px 5px 5px lightgray;
@@ -39,6 +45,7 @@ h2 {
 #educations {
   width: 80%;
 }
+
 .education {
   display: flex;
   flex-direction: row;
@@ -64,4 +71,10 @@ h2 {
   width: 80%;
   box-shadow: 0px 0px 5px 5px lightgray;
   padding: 40px 10%;
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: auto;
+  }
 }
