@@ -1,0 +1,67 @@
+h1 {
+  font-family: "DynaPuff", cursive;
+}
+
+h2 {
+  font-family: "DynaPuff", cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+#selfie {
+  margin: 20px;
+  width: 250px;
+  border-radius: 5px;
+}
+
+#intro {
+  text-align: center;
+  background-color: #34495e;
+  color: white;
+  padding: 40px;
+  box-shadow: 0px 0px 5px 5px lightgray;
+  width: 80%;
+}
+
+#infographic {
+  padding: 40px;
+  box-shadow: 0px 0px 5px 5px lightgray;
+  width: 80%;
+}
+
+#educations {
+  width: 80%;
+}
+.education {
+  display: flex;
+  flex-direction: row;
+
+  box-shadow: 0px 0px 5px 5px lightgray;
+}
+
+.eduhead {
+  text-align: center;
+  padding: 40px;
+  color: white;
+  background-color: #34495e;
+  width: 40%;
+}
+
+.edudata {
+  padding: 40px;
+  width: 100%;
+}
+
+#contactme {
+  text-align: center;
+  width: 80%;
+  box-shadow: 0px 0px 5px 5px lightgray;
+  padding: 40px 10%;
+}
