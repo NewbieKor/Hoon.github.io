@@ -92,4 +92,7 @@ h2 {
   #basicinfo {
     overflow-x: auto;
   }
+  .education {
+    width: auto;
+  }
 }
