@@ -73,7 +73,7 @@ h2 {
   padding: 40px 10%;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .container {
     width: auto;
   }
@@ -88,5 +88,8 @@ h2 {
   }
   #contactme {
     width: auto;
+  }
+  #basicinfo {
+    overflow-x: auto;
   }
 }
